@@ -1,4 +1,4 @@
-@Library('github.com/cloudbeers/multibranch-demo-lib') _
+#!groovy
 standardBuild {
     environment = 'golang:1.5.0'
     mainScript = '''
